@@ -31,9 +31,10 @@ Fontend -
 * font awersome for icons.
 
 Backend - 
+* Node.js, 
 * express,
 * cors,
-* Serves the data to front end.
+* Serves the data to front end (API) .
 
 # Images
 # big/medium screen
