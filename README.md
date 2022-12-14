@@ -1,4 +1,4 @@
-# Allo-healthcare-menu
+# Allo-Airlines-menu
 This is a digital menu application for airlines
 
 checkout hosted website - https://chipper-souffle-45d467.netlify.app/
