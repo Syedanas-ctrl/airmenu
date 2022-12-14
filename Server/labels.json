@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pork",
+    "label": "Pork"
+  },
+  {
+    "id": "seafood",
+    "label": "Seafood"
+  },
+  {
+    "id": "kids",
+    "label": "Kids"
+  },
+  {
+    "id": "chicken",
+    "label": "Chicken"
+  },
+  {
+    "id": "beef",
+    "label": "Beef"
+  },
+  {
+    "id": "vegetarian",
+    "label": "Vegetarian"
+  },
+  {
+    "id": "breakfast",
+    "label": "Breakfast"
+  }
+]
