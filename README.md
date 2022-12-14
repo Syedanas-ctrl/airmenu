@@ -4,7 +4,7 @@ This is a digital menu application for airlines
 checkout hosted website - https://chipper-souffle-45d467.netlify.app/
 
 How to run - 
-* npm install
+* npm install (for client and server side)
 * for Client side - npm run dev
 * for Server side - node index.js
 * Note - to run locally axios fetch links have to be changed to localhost:4000
