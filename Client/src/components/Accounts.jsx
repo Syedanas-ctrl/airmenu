@@ -17,7 +17,7 @@ const Accounts = ({ paginate }) => {
     <div className="flex flex-col md:bg-white bg-[#5f63bf] rounded-full md:items-center justify-center md:mt-0 md:mb-6 md:static fixed w-full mt-1">
       <div className=" bg-[#5f63bf] md:rounded-none rounded-full  w-full md:mt-0 mt-1 h-12 flex justify-between items-center px-3 md:pl-12 md:pr-0 md:justify-between  flex flex-row">
         <div className="flex flex-row items-center  text-white font-bold">
-          <h3>ALLO</h3>
+          <h3>Anas Airlines</h3>
           <i className="fa-solid fa-plane ml-2 fa-xl"></i>
         </div>
         <div className="flex flex-row h-full">

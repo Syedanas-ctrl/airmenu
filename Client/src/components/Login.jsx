@@ -9,7 +9,7 @@ const Login = () => {
   const [wrongPwd, setWrongPwd] = useState(false);
   const currUser = useSelector(selectCurrUser);
   const handleAuth = () => {
-    if (passengerPwd === "allo" && !isNaN(passengerSeat) && passengerSeat > 0) {
+    if (passengerPwd === "pass" && !isNaN(passengerSeat) && passengerSeat > 0) {
       setWrongPwd(false);
       dispatch(setCurrUser(passengerSeat));
       dispatch(addAccount(passengerSeat));
@@ -35,12 +35,12 @@ const Login = () => {
         >
           <div className="max-w-xl lg:max-w-3xl">
             <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-              Allo Airlines
+            Anas Airlines
             </h1>
 
             <p className="mt-4 leading-relaxed text-gray-500">
-              Imagine sitting in Allo airlines and your seat number is 21
-              (password: allo)
+              Imagine sitting in Anas airlines and your seat number is 21
+              (password: pass)
             </p>
             {wrongPwd && (
               <p className="mt-4 leading-relaxed text-red-500">
@@ -73,7 +73,7 @@ const Login = () => {
                 <input
                   type="password"
                   value={passengerPwd}
-                  placeholder="please enter 'allo' as password"
+                  placeholder="please enter 'pass' as password"
                   onChange={(e) => setPassengerPwd(e.target.value)}
                   className="mt-1 w-full rounded-md border-gray-600 font-bold  border-2 px-2 py-2 focus:outline-none  bg-white text-sm text-gray-700 shadow-sm"
                 />
